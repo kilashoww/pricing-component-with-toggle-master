@@ -101,7 +101,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Frontend Mentor - [@kilashoww](https://www.frontendmentor.io/profile/kilashoww)
 - Github - [@kilashoww](https://github.com/kilashoww)
-- Website - [Jean-Christophe SANITA](https://www.art-de-vivre.blog/)
+- Website - [art-de-vivre.blog](https://www.art-de-vivre.blog/)
 - Instagram - [@jcsanita](https://www.instagram.com/jcsanita)
 - Twitter - [@sanitajc](https://twitter.com/sanitajc)
 
