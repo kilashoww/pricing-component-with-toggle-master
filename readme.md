@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Design Pricing component with toggle solution](./design/desktop-design-annually.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -107,14 +107,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-<<<<<<< HEAD
-You can give me a tip on help me
-https://buymeacoffee.com/artdevivre
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-=======
 You can support me by offering me a coffee or more on https://www.buymeacoffee.com/artdevivre.<br>
 So as you want: 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ I looove so much coffee :yum: :laughing:
->>>>>>> 770175e71ae6f58622e20627f913334b373fb5b2
+
+[![wakatime](https://wakatime.com/badge/user/06e45670-5dab-4fd0-87ef-cecd51e17204/project/de20744c-1c29-43ca-8817-1e518538c5d1.svg)](https://wakatime.com/badge/user/06e45670-5dab-4fd0-87ef-cecd51e17204/project/de20744c-1c29-43ca-8817-1e518538c5d1)
