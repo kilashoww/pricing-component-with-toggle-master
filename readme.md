@@ -105,13 +105,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Instagram - [@jcsanita](https://www.instagram.com/jcsanita)
 - Twitter - [@sanitajc](https://twitter.com/sanitajc)
 
-
-`<html> 
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="artdevivre" data-color="#5F7FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
-</html>`
-
-
 ## Acknowledgments
+
+You can give me a tip on help me
+https://buymeacoffee.com/artdevivre
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
