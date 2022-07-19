@@ -101,15 +101,20 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Frontend Mentor - [@kilashoww](https://www.frontendmentor.io/profile/kilashoww)
 - Github - [@kilashoww](https://github.com/kilashoww)
-- Website - [Jean-Christophe SANITA](https://www.art-de-vivre.blog/)
+- Website - [art-de-vivre.blog](https://www.art-de-vivre.blog/)
 - Instagram - [@jcsanita](https://www.instagram.com/jcsanita)
 - Twitter - [@sanitajc](https://twitter.com/sanitajc)
 
 ## Acknowledgments
 
+<<<<<<< HEAD
 You can give me a tip on help me
 https://buymeacoffee.com/artdevivre
 
 This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 **Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+=======
+You can support me by offering me a coffee or more on https://www.buymeacoffee.com/artdevivre.<br>
+So as you want: 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ I looove so much coffee :yum: :laughing:
+>>>>>>> 770175e71ae6f58622e20627f913334b373fb5b2
