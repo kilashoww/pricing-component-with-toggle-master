@@ -3,50 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
+  <header></header>
+  <main>
+    <div class="planType">
+      <h1>Our Pricing</h1> 
+      <div class="planChoice">
+        <p class="PT annual">Annually</p>
+        <label class="switch"> <input type="checkbox"> <span class="slider round"></span> </label>
+        <p class="PT month">Monthly</p>
+        </div>
+    </div>
+    <div class="plan">
+      <div id="card1" class="Card">
+        <h2>Basic</h2>
+        <h3 class="PriceClass"><span class="monthP">&dollar;19.99</span>
+        <span class="annualP active">&dollar;199.99</span></h3>
+        <hr>
+        <p class="desc">500 GB Storage</p>
+        <hr>
+         <p class="desc">2 Users Allowed </p>
+        <hr>
+         <p class="desc">Send up to 3 GB</p>
+        <hr>
+        <button type="button" class="btn2" >Learn More</button>
+      </div>
+      <div id="card2" class="Card active">
+        <h2>Professional</h2>
+        <h3 class="active"><span class="monthP">&dollar;24.99</span>
+        <span class="annualP active">&dollar;249.99</span></h3> 
+        <hr>
+        <p class="desc active">1 TB Storage</p>
+        <hr>
+        <p class="desc active">5 Users Allowed</p>
+        <hr>
+        <p class="desc active">Send up to 10 GB</p>
+        <hr>
+        <button type="button" class="btn2 active">Learn More</button>
+      </div>
+      <div id="card3" class="Card">
+        <h2>Master</h2>
+        <h3><span class="monthP">&dollar;39.99</span>
+        <span class="annualP active">&dollar;399.99</span></h3> 
+        <hr>
+        <p class="desc">2 TB Storage</p><hr>
+        <p class="desc">10 Users Allowed</p><hr>
+        <p class="desc">Send up to 20 GB</p><hr>
+        <button type="button" class="btn2">Learn More</button>
+      </div>
+    </div>
 
-  Our Pricing
-  Annually
-  Monthly
-
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
-
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
-
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+  </main>
+
+  <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/kilashowws">Jean-Christophe SANITA</a>.
+      </div>
+      <script src="script.js">
+        
+      </script>
+  </footer>
 </body>
 </html>

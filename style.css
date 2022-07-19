@@ -1,0 +1,272 @@
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Linear Gradient: hsl(236, 72%, 79%) to hsl(237, 63%, 64%)
+
+### Neutral
+
+- Very Light Grayish Blue: hsl(240, 78%, 98%)
+- Light Grayish Blue: hsl(234, 14%, 74%)
+- Grayish Blue: hsl(233, 13%, 49%)
+- Dark Grayish Blue: hsl(232, 13%, 33%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weight: 700*/
+
+/*reset all*/
+*, ::before, ::after{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*General styles*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: hsl(240, 78%, 98%);
+  background-image: url('images/bg-top.svg'), url('images/bg-bottom.svg');
+  background-repeat: no-repeat;
+  background-position: right top, left bottom;
+  margin: 0 10%;
+  height: 95vh;
+  color: hsl(233, 13%, 49%);
+
+
+}
+
+
+header {
+margin-top: 3rem;
+margin-bottom: 3rem;
+}
+
+
+main {
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+
+footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+hr {
+    border-top: solid 0.2px hsl(234, 14%, 74%);
+    width: 100%;
+}
+
+
+h1 {
+  align-content: center;
+  justify-content: center;
+  padding: 1.5rem 0rem;
+}
+
+h2 {
+  font-size: 0.9rem;
+  align-content: center;
+  justify-content: center;
+  padding: 1.8rem 0rem;
+}
+
+
+h3 {
+  font-size: 3rem;
+  align-content: center;
+  justify-content: center;
+  
+  padding: 1.8rem 0rem;
+  color: hsl(232, 13%, 33%);
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/*btns styles*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3rem;
+  height: 1.5rem;
+
+}
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.5rem;
+  width: 1.5rem;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #a3a8f0;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px hsl(228, 45%, 44%);
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.btn2{
+  height: 2rem;
+  margin: 1rem 0;
+  background-image:linear-gradient(to right,#a3a8f0 0%, #696fdd 100%);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white ;
+  cursor: pointer;
+  border:none;
+       
+}
+
+.btn2.active{
+  color:hsl(228, 45%, 44%);
+  background-image: none;
+  background-color: white;
+}
+/*Other*/
+
+.planType {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.planChoice {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1.5rem 0rem;
+  margin-bottom: 3rem;
+
+}
+.PT{
+  padding: 0rem 1.5rem;
+}
+/*
+.plan{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-content: center;
+
+}*/
+
+.plan{
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.desc{
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    margin: 3%;
+}
+
+.Card{
+    width: 300px;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 0px 5px hsla(234, 13%, 49%, 0.05);
+    z-index: 1;
+}
+
+.Card.active{
+    width: 300px;
+    height: fit-content;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 10px 10px 0px 5px hsla(234, 13%, 49%, 0.05);
+    background: linear-gradient(150deg,#a3a8f0,#696fdd);
+    color: white;
+    z-index: 2;
+}
+
+h3.active, .desc.active{
+  color: white;
+}
+
+.annualP, .monthP{
+  display: none;
+
+}
+
+.monthP.active, .annualP.active{
+  display: flex;
+  justify-content: center;
+
+}
+
+
