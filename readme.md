@@ -107,5 +107,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-You can support me by offering me a coffee or more on https://www.buymeacoffee.com/artdevivre
+You can support me by offering me a coffee or more on https://www.buymeacoffee.com/artdevivre.
 So as you want: 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ I looove so much coffee :yum: :laughing:
