@@ -92,7 +92,7 @@ h2 {
   font-size: 0.9rem;
   align-content: center;
   justify-content: center;
-  padding: 1.8rem 0rem;
+  padding: 1.3rem 0rem;
 }
 
 
@@ -100,8 +100,7 @@ h3 {
   font-size: 3rem;
   align-content: center;
   justify-content: center;
-  
-  padding: 1.8rem 0rem;
+  padding-bottom: 1.3rem;
   color: hsl(232, 13%, 33%);
 }
 
@@ -258,15 +257,15 @@ h3.active, .desc.active{
   color: white;
 }
 
-.annualP, .monthP{
+.monthP{ 
   display: none;
-
-}
-
-.monthP.active, .annualP.active{
-  display: flex;
+  align-items: center;
   justify-content: center;
+}
+.annualP{
 
+  align-items: center;
+  justify-content: center;
 }
 
 
