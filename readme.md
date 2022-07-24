@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/kilashoww/pricing-component-with-toggle-master](https://github.com/kilashoww/pricing-component-with-toggle-master)
+- Live Site URL: [https://kilashoww.github.io/pricing-component-with-toggle-master/](https://kilashoww.github.io/pricing-component-with-toggle-master/)
 
 
 ### Built with
