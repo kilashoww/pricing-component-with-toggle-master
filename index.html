@@ -21,16 +21,16 @@
     <div class="planType">
       <h1>Our Pricing</h1> 
       <div class="planChoice">
-        <p class="PT annual">Annually</p>
-        <label class="switch"> <input type="checkbox"> <span class="slider round"></span> </label>
-        <p class="PT month">Monthly</p>
+        <p class="PT">Annually</p>
+        <label class="switch"> <input type="checkbox"> <span class="slider round"></span></label>
+        <p class="PT">Monthly</p>
         </div>
     </div>
     <div class="plan">
-      <div id="card1" class="Card">
+      <div id="card1">
         <h2>Basic</h2>
-        <h3 class="PriceClass"><span class="monthP">&dollar;19.99</span>
-        <span class="annualP">&dollar;199.99</span></h3>
+        <h3><span class="monthP" >&dollar;19.99</span>
+        <span class="annualP"><label for="checkbox2"></label>&dollar;199.99</span></h3>
         <hr>
         <p class="desc">500 GB Storage</p>
         <hr>
@@ -40,22 +40,22 @@
         <hr>
         <button type="button" class="btn2" >Learn More</button>
       </div>
-      <div id="card2" class="Card active">
+      <div id="card2">
         <h2>Professional</h2>
-        <h3 class="active"><span class="monthP">&dollar;24.99</span>
-        <span class="annualP active">&dollar;249.99</span></h3> 
+        <h3><span class="monthP" >&dollar;24.99</span>
+        <span class="annualP">&dollar;249.99</span></h3> 
         <hr>
-        <p class="desc active">1 TB Storage</p>
+        <p class="desc">1 TB Storage</p>
         <hr>
-        <p class="desc active">5 Users Allowed</p>
+        <p class="desc">5 Users Allowed</p>
         <hr>
-        <p class="desc active">Send up to 10 GB</p>
+        <p class="desc">Send up to 10 GB</p>
         <hr>
-        <button type="button" class="btn2 active">Learn More</button>
+        <button type="button" class="btn2">Learn More</button>
       </div>
-      <div id="card3" class="Card">
+      <div id="card3">
         <h2>Master</h2>
-        <h3><span class="monthP">&dollar;39.99</span>
+        <h3><span class="monthP"></label>&dollar;39.99</span>
         <span class="annualP">&dollar;399.99</span></h3> 
         <hr>
         <p class="desc">2 TB Storage</p><hr>
@@ -74,9 +74,31 @@
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="https://github.com/kilashowws">Jean-Christophe SANITA</a>.
       </div>
-      <script src="script.js">
-        
-      </script>
+      <script>
+function check() 
+{
+  var checkBox = document.querySelector('input[type="checkbox"]');
+  var month = document.getElementsByClassName("monthP");
+  var annual = document.getElementsByClassName("annualP");
+ 
+  checkBox.addEventListener("change", function()
+  {
+    for (var i = 0; i < month.length && annual.length; i++) {
+        if (checkBox.checked)
+        {
+            month[i].style.display = "flex";
+            annual[i].style.display = "none";
+        } 
+        else 
+        {
+            month[i].style.display = "none";
+            annual[i].style.display = "flex";
+        }
+}
+});
+}
+check()    
+</script>
   </footer>
 </body>
 </html>
