@@ -53,4 +53,4 @@ Users should be able to:
 You can support me by offering me a coffee or more on https://www.buymeacoffee.com/artdevivre.<br>
 So as you want: 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ I looove so much coffee :yum: :laughing:
 
-[![wakatime](https://wakatime.com/badge/user/06e45670-5dab-4fd0-87ef-cecd51e17204/project/de20744c-1c29-43ca-8817-1e518538c5d1.svg)](https://wakatime.com/badge/user/06e45670-5dab-4fd0-87ef-cecd51e17204/project/de20744c-1c29-43ca-8817-1e518538c5d1)
+[![wakatime](https://wakatime.com/badge/github/kilashoww/pricing-component-with-toggle-master.svg)](https://wakatime.com/badge/github/kilashoww/pricing-component-with-toggle-master)
